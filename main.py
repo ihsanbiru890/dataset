@@ -68,7 +68,7 @@ def main():
 
     with open("output_json/summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
-    logging.info("📊 Summary disimpan di output_json/summary.json")
+    logging.info("Summary disimpan di output_json/summary.json")
 
 if __name__ == "__main__":
     main()
